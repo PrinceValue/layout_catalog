@@ -59,10 +59,10 @@
     height: $nav-link-height;
     align-items: center;
     justify-content: center;
+    transition: all $hover-transition;
 
     &:hover {
       color: $link-hover-color;
-      transition: all $hover-transition;
     }
   }
 }

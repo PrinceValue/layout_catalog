@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all $hover-transition;
 
   &__content {
     width: $contentWidth;
@@ -33,6 +34,7 @@
     line-height: 18px;
     margin-top: 40px;
     height: 36px;
+    transition: all $hover-transition;
   }
 
   &__code {
@@ -115,7 +117,7 @@
     transform: scale(1.2);
 
     .card__title {
-      color: $link-hover-color;
+      color: $card-title-hover-color;
     }
   }
 }
