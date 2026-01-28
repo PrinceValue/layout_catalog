@@ -103,11 +103,12 @@
     font-size: 14px;
     line-height: 16px;
 
+    transition: all $hover-transition;
+
     &:hover {
       color: #00acdc;
       background-color: #fff;
       border: 1px solid $link-hover-color;
-      transition: all $hover-transition;
     }
   }
 
