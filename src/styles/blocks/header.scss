@@ -12,8 +12,6 @@
   box-shadow: 0 2px 4px rgba($color: #000, $alpha: 0.05);
   padding-inline: 50px;
 
-  @include page-width;
-
   &__logo {
     height: $logo-size;
     width: $logo-size;
